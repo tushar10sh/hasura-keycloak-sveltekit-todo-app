@@ -1,0 +1,47 @@
+{
+	"name": "~TODO~",
+	"version": "0.0.1",
+	"scripts": {
+		"dev": "svelte-kit dev",
+		"build": "svelte-kit build",
+		"preview": "svelte-kit preview",
+		"check": "svelte-check --tsconfig ./tsconfig.json",
+		"check:watch": "svelte-check --tsconfig ./tsconfig.json --watch",
+		"lint": "eslint --ignore-path .gitignore ."
+	},
+	"devDependencies": {
+		"@graphql-codegen/cli": "^1.21.6",
+		"@graphql-codegen/typescript": "^1.22.4",
+		"@graphql-codegen/typescript-operations": "^1.18.3",
+		"@sveltejs/kit": "next",
+		"@types/cookie": "^0.4.0",
+		"@typescript-eslint/eslint-plugin": "^4.19.0",
+		"@typescript-eslint/parser": "^4.19.0",
+		"autoprefixer": "^10.2.6",
+		"cssnano": "^5.0.6",
+		"dotenv": "^10.0.0",
+		"eslint": "^7.22.0",
+		"eslint-plugin-svelte3": "^3.2.0",
+		"graphql-codegen-svelte-apollo": "^1.0.0",
+		"postcss": "^8.3.5",
+		"postcss-load-config": "^3.1.0",
+		"svelte": "^3.34.0",
+		"svelte-check": "^2.0.0",
+		"svelte-preprocess": "^4.7.3",
+		"tailwindcss": "^2.2.4",
+		"tslib": "^2.0.0",
+		"typescript": "^4.0.0"
+	},
+	"type": "module",
+	"dependencies": {
+		"@fontsource/fira-mono": "^4.2.2",
+		"@lukeed/uuid": "^2.0.0",
+		"@types/mapbox-gl": "^2.3.1",
+		"cookie": "^0.4.1",
+		"graphql": "^15.5.1",
+		"keycloak-js": "^14.0.0",
+		"mapbox-gl": "^2.3.1",
+		"svelte-apollo": "^0.4.0",
+		"xstate": "^4.20.2"
+	}
+}
